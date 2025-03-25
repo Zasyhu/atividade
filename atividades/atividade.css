@@ -1,0 +1,99 @@
+/* Estilo para o título principal */
+h1 {
+    text-align: center;
+}
+
+/* Estilo para o corpo da página */
+body {
+    background-color: lightgrey;
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Estilo para os elementos de fieldset */
+fieldset {
+    background-color: rgb(168, 168, 168);
+    border: none;
+    border-radius: 4px;
+    width: 300px;
+    height: auto;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Estilo para os elementos h2 */
+h2 {
+    margin: 0;
+    background-color: rgb(158, 167, 255);
+    border: none;
+    width: auto;
+    border-radius: 4px;
+    font-size: larger;
+    text-align: center;
+}
+
+/* Estilo para os parágrafos */
+p {
+    margin: 0;
+}
+
+/* Estilo para o botão de inscrição */
+#butao01 {
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+} 
+
+#butao01:hover {
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para o textarea */
+textarea {
+    display: none;
+}
+
+#termos2:hover > textarea {
+    display: block;
+}
+
+/* Estilo para o texto dos termos */
+#termos2 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display: inline-block;
+}
+
+/* Estilo para o container principal */
+#container {
+    gap: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Estilo para as imagens */
+img {
+    width: 100px;
+    height: 100px;
+    transition: transform 500ms;
+}
+
+img:hover {
+    transform: scale(1.2);
+}
+
+/* Estilo específico para o item 2 */
+#item2 {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
