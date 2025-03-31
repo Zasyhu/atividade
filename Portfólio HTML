@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Engenharia de Software</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Miguel Oliveira Freitas</h1>
+        <p>Engenheiro de Software </p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>Sou um engenheiro de software</p>
+    </section>
+
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>HTML, CSS,</li>
+        </ul>
+    </section>
+
+    <section id="projetos">
+        <h2>Projetos</h2>
+        <div class="projeto">
+            <h3>Projeto 1</h3>
+            <p>Descrição breve do projeto.</p>
+            <a href="#">Ver no GitHub</a>
+        </div>
+        <div class="projeto">
+            <h3>Projeto 2</h3>
+            <p>Descrição breve do projeto.</p>
+            <a href="#">Ver no GitHub</a>
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Email: <a href="mailto:seuemail@gmail.com">freitasmiguel555@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/seu-perfil" target="_blank">linkedin.com/in/seu-perfil</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Seu Nome</p>
+    </footer>
+
+</body>
+</html>
