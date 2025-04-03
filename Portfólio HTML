@@ -9,8 +9,9 @@
 <body>
 
     <header>
+        <img src="https://via.placeholder.com/150" alt="Foto de Perfil" class="perfil-img">
         <h1>Miguel Oliveira Freitas</h1>
-        <p>Engenheiro de Software </p>
+        <p>Engenheiro de Software</p>
     </header>
 
     <nav>
@@ -30,7 +31,7 @@
     <section id="habilidades">
         <h2>Habilidades</h2>
         <ul>
-            <li>HTML, CSS,</li>
+            HTML, CSS
         </ul>
     </section>
 
@@ -39,23 +40,23 @@
         <div class="projeto">
             <h3>Projeto 1</h3>
             <p>Descrição breve do projeto.</p>
-            <a href="#">Ver no GitHub</a>
+            <a href="#" class="btn">Ver no GitHub</a>
         </div>
         <div class="projeto">
             <h3>Projeto 2</h3>
             <p>Descrição breve do projeto.</p>
-            <a href="#">Ver no GitHub</a>
+            <a href="#" class="btn">Ver no GitHub</a>
         </div>
     </section>
 
     <section id="contato">
         <h2>Contato</h2>
-        <p>Email: <a href="mailto:seuemail@gmail.com">freitasmiguel555@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/seu-perfil" target="_blank">linkedin.com/in/seu-perfil</a></p>
+        <p>Email: <a href="mailto:freitasmiguel555@gmail.com" class="btn">Enviar Email</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/Miguel-Oliveira-Freitas" target="_blank" class="btn">Meu LinkedIn</a></p>
     </section>
 
     <footer>
-        <p>&copy; 2025 Seu Nome</p>
+        <p>&copy; 2025 Miguel Oliveira Freitas</p>
     </footer>
 
 </body>
